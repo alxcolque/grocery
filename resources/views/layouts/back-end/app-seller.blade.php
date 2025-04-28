@@ -29,7 +29,8 @@
         <link rel="stylesheet" href="{{ asset('public/assets/back-end') }}/css/menurtl.css">
     @endif
     {{-- light box --}}
-    <link rel="stylesheet" href="{{ asset('public/css/lightbox.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('public/css/lightbox.css') }}"> --}}
+    <link rel="stylesheet" href="{{asset('public/assets/back-end/css/lightbox.css')}}">
     @stack('css_or_js')
     <!-- <style>
         :root {

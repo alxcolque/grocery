@@ -727,12 +727,14 @@
     </script>
 
     {{-- ck editor --}}
-    <script src="{{ asset('/') }}vendor/ckeditor/ckeditor/ckeditor.js"></script>
-    <script src="{{ asset('/') }}vendor/ckeditor/ckeditor/adapters/jquery.js"></script>
+    {{-- <script src="{{ asset('/') }}vendor/ckeditor/ckeditor/ckeditor.js"></script> --}}
+    {{-- <script src="{{ asset('/') }}vendor/ckeditor/ckeditor/adapters/jquery.js"></script> --}}
+    <script src="//cdn.ckeditor.com/4.25.1-lts/standard/ckeditor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.25.1/adapters/jquery.min.js" integrity="sha512-YRvgGnMe4D3Vyx168nR0pr1HS0zToBpfePcCa+KnAk56YqaCLJyLWrxmw2+bwvAMMBfwiCsRbHRlU9hObT5E2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        $('.textarea').ckeditor({
+        /* $('.textarea').ckeditor({
             contentsLangDirection: '{{ Session::get('direction') }}',
-        });
+        }); */
     </script>
 
     {{-- ck editor --}}

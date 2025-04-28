@@ -77,7 +77,7 @@
                                 onerror="this.src='{{asset('assets/front-end/img/image-place-holder.png')}}'"
                                 alt="{{ $web_config['name']->value }}"/>
                         </a>
-                        @php($ios = \App\CPU\Helpers::get_business_settings('download_app_apple_stroe'))
+                        {{-- @php($ios = \App\CPU\Helpers::get_business_settings('download_app_apple_stroe'))
                         @php($android = \App\CPU\Helpers::get_business_settings('download_app_google_stroe'))
 
                         @if($ios['status'] || $android['status'])
@@ -106,7 +106,7 @@
                                     </a>
                                 </div>
                             @endif
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-md-9" >
                         <div class="row">

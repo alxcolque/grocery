@@ -29,7 +29,8 @@
         <link rel="stylesheet" href="{{asset('public/assets/back-end')}}/css/menurtl.css">
     @endif
     {{-- light box --}}
-    <link rel="stylesheet" href="{{asset('public/css/lightbox.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('public/css/lightbox.css')}}"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css" integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @stack('css_or_js')
     <!-- <style>
         :root {
@@ -299,7 +300,8 @@
 
 <script src="{{asset('public/assets/back-end')}}/js/bootstrap.min.js"></script>
 {{-- light box --}}
-<script src="{{asset('public/js/lightbox.min.js')}}"></script>
+{{-- <script src="{{asset('public/js/lightbox.min.js')}}"></script> --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <audio id="myAudio">
     <source src="{{asset('public/assets/back-end/sound/notification.mp3')}}" type="audio/mpeg">
 </audio>
@@ -407,7 +409,7 @@
 <!-- ck editor -->
 
 <script>
-    initSample();
+    //initSample();
 </script>
 
 <script>

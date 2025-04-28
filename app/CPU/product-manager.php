@@ -9,6 +9,7 @@ use App\Model\Translation;
 use App\Model\ShippingMethod;
 use Illuminate\Support\Facades\DB;
 use Brian2694\Toastr\Facades\Toastr;
+use Illuminate\Support\Facades\Storage;
 
 class ProductManager
 {
